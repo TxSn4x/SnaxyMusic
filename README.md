@@ -21,7 +21,6 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </p>
-ʀᴀᴜsʜᴀɴ
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 </p>
@@ -38,8 +37,7 @@
 </h3>
 
 - Get your [Necessary Variables](https://github.com/TEAMPURVI/ALPHA_MUSIC/blob/main/sample.env)
-- Upgrade and Update by :
-- `sudo apt-get update && sudo apt-get upgrade -y`
+- Upgrade and Update by : `sudo apt-get update && sudo apt-get upgrade -y`
 - 
 - Install Ffmpeg & Python by :
 `sudo apt-get install python3-pip ffmpeg -y`
