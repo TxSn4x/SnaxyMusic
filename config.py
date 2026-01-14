@@ -20,12 +20,12 @@ OWNER_ID = int(getenv("OWNER_ID", 7403621976))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAMPURVI/ALPHA_MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/txsn4x/snaxymusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_BOTS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/aniweb_bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aniweb_nexus")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
@@ -50,18 +50,18 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/fu6jk3.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/26nzoq.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/f2s4ws.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/z0gh23.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2y5o3g.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2y5o3g.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/2y5o3g.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2y5o3g.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2y5o3g.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/1d82800634181fae2ee24-4bdd1003cdb14b30cc.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg")
+PLAYLIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+STATS_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+STREAM_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
 
 
 def time_to_seconds(time):
